@@ -1,0 +1,9 @@
+---
+- name: Simple playbook #describes playbook
+  hosts: planetexpress # this is a reference to a group or a host in the inventory
+  tasks:
+  - name: "apt module - Install a simple application"
+    apt:
+     name: figlet
+     state: absent
+    become: true #elevates ansible modules to superuser 
