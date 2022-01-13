@@ -1,0 +1,14 @@
+---
+- name: Using our new module
+  hosts: localhost
+
+  tasks:
+  - name: New module
+    my_new_test_module:
+      name: Chester
+      augment: true
+    register: results
+
+  - debug:
+      var: results
+
