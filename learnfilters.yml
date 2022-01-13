@@ -1,0 +1,49 @@
+---
+- name: A few basic filters
+  hosts: localhost
+  gather_facts: no
+
+  vars:
+    jarlist: [1,1,1,1,1,5]
+    repeatlist: [1,2,2,2,4,4,4,4,9,9,9,9]
+    repeat2list: [5,5,5,5,5,6,7]
+    complexlist: [6,7,8,[9,10,22],87]
+
+  tasks:
+
+  # The smallest in a list
+  - name: The min filter
+    debug:
+      msg: "Show me the lowest number in the list: '{{ jarlist|min }}'"
+
+  # The largest in a list
+  - name: The max filter
+    debug:
+      msg: "Show me the largest number in the list: '{{ jarlist|max }}'"
+
+  # Flatten a list
+  - name: The flatten filter
+    debug:
+      msg: "The list was complex '{{ complexlist }}' but now it is not '{{ complexlist|flatten }}'"
+
+  # Flatten a list and loop -- (easier)
+  - name: The flatten filter used with looping
+    debug: 
+      msg: 'We just want to use the items from the list {{ item }}'
+    loop: "{{ complexlist|flatten }}"
+
+  # Drop any items that repeat to produce a unique set
+  - name: get a unique set from a list 
+    debug:
+      msg: 'We just want the unique set from a list {{ repeatlist|unique }}'
+
+  # Produce a list union
+  - name: Produce a list union from two lists
+    debug:
+      msg: 'Display the union of the lists {{ repeatlist|union(repeat2list) }}'
+
+  # Show what is different between two lists (what is unique in list1 that is not in list2)
+  - name: show the diffs between two lists
+    debug:
+      msg: 'Display the diffs of two lists {{ repeatlist|difference(repeat2list) }}'
+

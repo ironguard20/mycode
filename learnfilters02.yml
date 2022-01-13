@@ -1,0 +1,20 @@
+---
+- name: Jinja2 default filters
+  hosts: localhost
+  gather_facts: False
+
+  tasks:
+
+    # If interface is not defined, the integer value of 45 will be used
+    # rather than raising an error. Pausing a playbook is sometimes necessary
+    # in networking plays to prevent racing.
+    - name: Jinja2 default filter - example
+      pause:
+        seconds: "{{ sleeptime | default(45) }}"
+
+    # If you want to use the default value when vars evaluate to false or an empty string
+    # then you have to set a second parameter to true
+    - name: Jinja2 default filter - example
+      debug:
+        msg: "Prevent undefined var err {{ myvariable | default('by setting a default', true) }}"
+
