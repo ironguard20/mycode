@@ -1,0 +1,34 @@
+---              
+- name: Deploy mission critical app  
+  hosts: planetexpress
+  gather_facts: True
+  connection: ssh
+
+  tasks:
+  - name: Bastet on Debian system (apt)
+    apt:
+      name: bastet
+      state: present
+    become: yes
+    when: ansible_os_family == "Debian"
+    
+  - name: Bastet on RedHat system (yum)
+    yum:
+      name: bastet
+      state: present
+    become: yes
+    when: ansible_os_family == "RedHat"
+    
+  - name: Get all home directories across all systems
+    command: ls /home
+    become: yes
+    register: homevarz
+    
+  - name: Create a README.txt file if it does not exist in every home user directory
+    lineinfile:
+      create: yes
+      path: /home/{{ item }}/README.txt
+      line: "Type bastet to play the Tetris emulator. Use CTRL + C to quit"
+    loop: "{{ homevarz.stdout_lines }}"
+    become: yes
+

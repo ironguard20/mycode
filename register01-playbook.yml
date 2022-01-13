@@ -1,0 +1,23 @@
+---
+- name: Playbook with the register keyword
+  hosts: planetexpress
+  gather_facts: false       # no need to collect ansible_facts
+  connection: ssh           # default connection type
+
+  tasks:      
+  - name: Issue a trivial command
+    command: ls /lib/
+    register: results
+    
+  - name: Debug - display data returned
+    debug:
+      var: results
+      
+  - name: Debug - standard error
+    debug:
+      var: results.stderr
+      
+  - name: Debug - standard out
+    debug:
+      var: results.stdout
+
