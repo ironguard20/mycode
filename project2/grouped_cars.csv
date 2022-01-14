@@ -1,0 +1,205 @@
+Make,Model,Year,Price,Age
+Acura,MDX,2007,8450.0,32.0
+Acura,RDX,2014,21767.5,17.33
+Audi,A8,2019,67940.88,71.71
+Audi,Q5,2012,15441.2,16.47
+Audi,Q5,2015,25900.0,8.0
+Audi,Q7,2018,47027.65,80.71
+BMW,1 Series,2009,14823.82,17.71
+BMW,3 Series,2008,7396.25,29.88
+BMW,3 Series,2009,12885.0,32.0
+BMW,3 Series,2013,13491.0,3.0
+BMW,3 Series,2015,19206.91,25.71
+BMW,4 Series,2014,21726.25,20.88
+BMW,4 Series,2016,23529.71,90.71
+BMW,5 Series,2012,11970.59,46.71
+BMW,8 Series,2020,84900.0,28.71
+BMW,M8,2020,131479.71,46.71
+BMW,X1,2015,19325.29,22.71
+BMW,X1,2016,23955.0,29.0
+BMW,X3,2013,13667.94,22.71
+BMW,X4,2021,58742.65,32.71
+BMW,X5,2015,29547.35,22.71
+Bentley,Continental GT,2017,133848.33,186.67
+Buick,Enclave,2017,29723.53,54.71
+Buick,Regal,2014,16594.71,40.71
+Cadillac,CTS,2016,23458.53,27.71
+Cadillac,CTS,2017,21408.85,61.69
+Cadillac,Escalade,2016,60585.59,21.71
+Cadillac,XT5,2017,27405.29,66.71
+Chevrolet,Equinox,2013,13481.67,13.0
+Chevrolet,Malibu,2018,19491.0,8.5
+Chevrolet,Silverado 1500,2016,33438.18,12.45
+Chrysler,Town & Country,2014,15493.82,24.71
+Dodge,Durango,2019,45149.41,36.71
+Ford,Edge,2014,13020.59,42.71
+Ford,Explorer,2014,19922.35,63.71
+Ford,Explorer,2015,21299.71,74.71
+Ford,F-150,2012,24859.09,12.45
+Ford,F-150,2014,21942.86,9.57
+Ford,Transit-250,2015,21466.25,82.75
+GMC,Acadia,2017,24622.86,153.0
+GMC,Acadia,2019,29948.18,13.45
+GMC,Yukon,2015,46372.5,23.69
+GMC,Yukon XL,2016,43723.82,111.71
+Honda,Accord,2015,19510.88,24.71
+Honda,Accord,2017,23837.56,38.61
+Honda,Accord,2018,26108.82,62.71
+Honda,Accord,2020,28533.0,32.0
+Honda,CR-V,2018,26742.65,56.71
+Honda,Civic,2013,12329.64,76.5
+Honda,Civic,2014,16991.0,14.5
+Honda,Odyssey,2022,40334.71,51.71
+Honda,Pilot,2012,17589.62,34.69
+Honda,Ridgeline,2018,39864.09,11.45
+INFINITI,QX60,2014,22200.0,26.71
+Jaguar,XK,2014,48913.67,6.83
+Jeep,Cherokee,2019,23446.76,33.71
+Jeep,Compass,2019,25625.0,58.67
+Jeep,Grand Cherokee,2014,18884.12,26.71
+Jeep,Grand Cherokee,2015,23860.91,10.45
+Jeep,Grand Cherokee,2018,35690.88,23.71
+Jeep,Renegade,2017,16755.29,42.71
+Jeep,Wrangler,2017,38395.4,44.76
+Jeep,Wrangler,2018,51869.55,11.45
+Kia,Forte,2011,5330.0,34.0
+Kia,Forte,2016,12655.0,37.0
+Kia,Sportage,2017,16815.29,50.71
+Land Rover,Range Rover Evoque,2016,28357.5,37.0
+Land Rover,Range Rover Velar,2018,52635.88,34.71
+Lexus,ES,2018,32686.18,81.71
+Lexus,ES,2019,34796.25,164.75
+Lexus,ES,2020,44991.0,3.5
+Lexus,GX,2011,26406.0,12.2
+Lexus,RX,2012,19764.38,17.88
+Lexus,RX,2013,23250.0,73.67
+Lexus,RX,2017,36200.0,95.0
+Lincoln,MKX,2017,30350.94,81.56
+Maserati,GranTurismo,2013,45458.24,118.71
+Mazda,CX-5,2019,31942.27,10.45
+Mazda,CX-5,2021,32991.0,10.5
+Mazda,Miata,2016,25841.43,8.29
+Mercedes-Benz,A-Class,2019,34092.79,107.21
+Mercedes-Benz,A-Class,2020,34255.88,98.21
+Mercedes-Benz,A-Class,2021,39625.0,290.71
+Mercedes-Benz,AMG® GT,2020,148351.18,46.71
+Mercedes-Benz,B-Class,2017,21795.29,18.71
+Mercedes-Benz,C-Class,2013,14910.0,51.0
+Mercedes-Benz,C-Class,2014,18528.82,49.18
+Mercedes-Benz,C-Class,2015,20316.67,50.67
+Mercedes-Benz,C-Class,2016,26812.81,42.0
+Mercedes-Benz,C-Class,2017,32027.78,119.69
+Mercedes-Benz,C-Class,2018,38530.36,65.32
+Mercedes-Benz,C-Class,2019,44135.18,281.96
+Mercedes-Benz,C-Class,2020,44643.5,269.41
+Mercedes-Benz,C-Class,2021,47797.19,163.46
+Mercedes-Benz,CLA,2014,20339.71,50.71
+Mercedes-Benz,CLA,2016,22872.94,45.71
+Mercedes-Benz,CLA,2017,26582.14,122.48
+Mercedes-Benz,CLA,2018,33304.27,71.93
+Mercedes-Benz,CLA,2019,31592.5,69.4
+Mercedes-Benz,CLK,2004,6615.0,61.0
+Mercedes-Benz,CLS,2012,24491.0,4.0
+Mercedes-Benz,CLS,2016,32305.0,102.71
+Mercedes-Benz,CLS,2017,46827.67,17.47
+Mercedes-Benz,CLS,2019,69305.82,300.31
+Mercedes-Benz,CLS,2020,72720.0,166.0
+Mercedes-Benz,CLS,2021,80400.0,121.71
+Mercedes-Benz,E-Class,2013,23719.85,56.71
+Mercedes-Benz,E-Class,2016,29263.29,35.66
+Mercedes-Benz,E-Class,2017,37308.2,31.73
+Mercedes-Benz,E-Class,2018,48414.04,70.71
+Mercedes-Benz,E-Class,2019,56907.89,258.81
+Mercedes-Benz,E-Class,2020,62573.28,226.33
+Mercedes-Benz,E-Class,2021,78865.17,77.4
+Mercedes-Benz,G-Class,2015,94326.47,174.71
+Mercedes-Benz,GL-Class,2011,14895.0,18.0
+Mercedes-Benz,GL-Class,2013,23915.0,36.75
+Mercedes-Benz,GL-Class,2015,32855.67,16.47
+Mercedes-Benz,GLA,2018,31991.0,5.83
+Mercedes-Benz,GLA,2019,31521.42,60.21
+Mercedes-Benz,GLA,2020,37723.05,151.54
+Mercedes-Benz,GLA,2021,42457.2,273.3
+Mercedes-Benz,GLB,2020,43039.4,99.67
+Mercedes-Benz,GLB,2021,46613.16,107.48
+Mercedes-Benz,GLC,2016,29433.4,23.9
+Mercedes-Benz,GLC,2018,37349.32,56.82
+Mercedes-Benz,GLC,2019,41630.36,104.7
+Mercedes-Benz,GLC,2020,51290.84,230.2
+Mercedes-Benz,GLC,2021,46778.09,227.14
+Mercedes-Benz,GLE,2017,43205.0,108.71
+Mercedes-Benz,GLE,2018,45785.44,64.26
+Mercedes-Benz,GLE,2019,63205.91,107.61
+Mercedes-Benz,GLE,2020,62079.81,64.6
+Mercedes-Benz,GLE,2021,61000.0,192.67
+Mercedes-Benz,GLK,2010,13809.55,29.45
+Mercedes-Benz,GLK,2011,14850.0,48.71
+Mercedes-Benz,GLK,2014,22560.0,13.6
+Mercedes-Benz,GLS,2017,45641.18,174.71
+Mercedes-Benz,GLS,2018,59003.6,82.22
+Mercedes-Benz,GLS,2020,86781.11,8.78
+Mercedes-Benz,M-Class,2014,22534.71,32.21
+Mercedes-Benz,M-Class,2015,27774.06,19.12
+Mercedes-Benz,Metris,2019,41606.09,57.09
+Mercedes-Benz,Metris,2020,67525.84,49.23
+Mercedes-Benz,S-Class,2010,29837.33,18.47
+Mercedes-Benz,S-Class,2017,70413.52,71.38
+Mercedes-Benz,S-Class,2018,73677.62,80.36
+Mercedes-Benz,S-Class,2020,109991.0,4.5
+Mercedes-Benz,SLC,2017,51861.36,9.45
+Mercedes-Benz,SLC,2020,68487.0,56.0
+Mercedes-Benz,SLK,2012,29772.27,12.45
+Mercedes-Benz,Sprinter 2500,2010,24900.0,49.71
+Mercedes-Benz,Sprinter 2500,2017,36135.29,70.71
+Mercedes-Benz,Sprinter 2500,2020,120388.1,136.48
+Mercedes-Benz,Sprinter 3500,2016,129900.0,28.71
+Nissan,Altima,2008,6805.62,54.88
+Nissan,Rogue,2018,24230.0,9.5
+Nissan,Rogue,2019,26763.67,18.47
+Nissan,Sentra,2015,11991.0,5.5
+Nissan,Titan XD,2019,45057.06,35.71
+Porsche,Cayenne,2009,26530.0,46.43
+Porsche,Cayenne,2016,55904.12,31.71
+Porsche,Taycan,2020,134539.69,28.69
+Ram,1500,2018,35177.27,12.45
+Ram,1500,2020,47235.88,65.71
+Ram,2500,2015,39792.69,105.69
+Subaru,B9 Tribeca,2007,5885.67,15.47
+Subaru,BRZ,2015,22879.09,13.45
+Subaru,Crosstrek,2018,24315.0,101.0
+Subaru,Forester,2017,27397.94,70.71
+Subaru,Impreza,2018,17992.35,70.71
+Subaru,Outback,2019,30660.0,82.0
+Subaru,Outback,2020,29680.88,21.76
+Subaru,Outback,2021,38991.0,14.5
+Subaru,XV Crosstrek,2015,18231.47,39.71
+Toyota,4Runner,2016,40206.76,87.71
+Toyota,Camry,2013,14886.25,9.75
+Toyota,Camry,2018,22401.76,69.71
+Toyota,Camry,2020,26180.0,36.75
+Toyota,Camry Hybrid,2020,30966.82,13.45
+Toyota,Highlander,2014,28046.76,47.71
+Toyota,Highlander,2019,39855.0,9.67
+Toyota,Prius,2013,13449.62,16.08
+Toyota,Prius,2014,11510.0,19.88
+Toyota,Prius Prime,2018,24880.0,7.57
+Toyota,RAV4,2013,17808.21,13.29
+Toyota,RAV4,2015,18837.94,64.71
+Toyota,RAV4,2016,22855.67,15.47
+Toyota,RAV4 Hybrid,2018,29463.82,65.71
+Toyota,Sienna,2019,36602.94,90.71
+Toyota,Tacoma,2018,39555.88,25.71
+Toyota,Tacoma,2020,43695.0,43.0
+Toyota,Tundra,2019,53585.0,10.5
+Toyota,Tundra,2020,54285.0,38.67
+Volkswagen,Beetle,2004,5957.67,19.47
+Volkswagen,Jetta,2016,14804.41,41.71
+Volkswagen,Jetta,2019,21645.29,29.71
+Volkswagen,Rabbit,2009,6991.0,10.5
+Volkswagen,Tiguan,2018,23536.47,72.71
+Volvo,XC40,2019,37375.0,129.67
+Volvo,XC60,2013,14784.67,17.47
+Volvo,XC60,2018,35274.41,100.71
+Volvo,XC60,2020,42867.86,14.29
+smart,Fortwo,2009,6690.0,26.0
+smart,Fortwo electric drive,2018,15417.08,9.92
