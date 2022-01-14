@@ -186,6 +186,7 @@ def pokebattler(player_name, PokeA, PokeB):
                     f"{PokeB_name} attacked {PokeA_name} with {move[move_pick]} and did {int(damage)} damage!"
                 )
                 if PokeA_hp <= 0:
+                    #Should put this into function called gary_mocker
                     print(f"{PokeA_name} fainted!")
                     gary_mocking = randint(0, 2)
                     if gary_mocking == 0:
@@ -203,7 +204,8 @@ def pokebattler(player_name, PokeA, PokeB):
                 else:
                     continue
             else:
-                print(f"player wins")
+                print(f"{PokeB_name} fainted!")
+                print(f"{player_name} wins!")
                 continue
         except:
             if PokeA_hp <= 0:

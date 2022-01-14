@@ -12,7 +12,7 @@ from pokefunc import pokebattler, input_filter, poke_picker
 def main():
     PokeA = poke_picker()
     PokeB = poke_picker()
-    name = input_filter("What is your name? ")
+    name = input_filter("Trainer, state your name: ")
     pokebattler(name, PokeA, PokeB)
 
 
